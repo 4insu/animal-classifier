@@ -46,12 +46,20 @@ To utilize the animal classifier, follow these steps:
    ```bash
    git clone https://github.com/your_username/animal-classifier.git
    ```
-2. **Install Dependencies**: Ensure you have all the necessary dependencies installed. You may use requirements.txt to install them using pip.
+
+2. **Create and Activate Virtual Environment**:
+
+   ```bash
+   conda create -n <env_name> python=3.9 -y
+   conda activate <env_name>
+   ```
+
+3. **Install Dependencies**: Ensure you have all the necessary dependencies installed. You may use requirements.txt to install them using pip.
 
     ```bash
     pip install -r requirements.txt
     ```
-3. **Run the Classifier**: Use the provided scripts or notebooks to run the classifier on your own images or test it on the provided dataset.
+4. **Run the Classifier**: Use the provided scripts or notebooks to run the classifier on your own images or test it on the provided dataset.
 
 ## Results
 
