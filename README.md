@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Animal Classifier
 
 Welcome to the Animal Classifier repository! This project is aimed at classifying over 90 different animal species using transfer learning with the EfficientNetB3 model.
@@ -65,10 +64,3 @@ Contributions to this project are welcome! Whether it's improving the model's pe
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-=======
-<h2 align="center">Hi 👋! My name is Supriyo Ain</h2>
-
-###
-
-<p align="center">I'm a Machine Learning Enthusiast.</p>
->>>>>>> df25289051e99bb817408ec8572cf0f984e23535
