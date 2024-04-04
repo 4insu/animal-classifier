@@ -8,7 +8,7 @@ This project utilizes transfer learning, leveraging the pre-trained EfficientNet
 
 ## Dataset
 
-The dataset used for training and evaluation comprises images of over 90 different animal species. It has been carefully curated and labeled to ensure accurate classification. Due to the diverse nature of the dataset, the model is capable of recognizing a wide range of animal species.
+The dataset used for training and evaluation comprises images of over 90 different animal species. It has been carefully curated and labeled to ensure accurate classification. Due to the diverse nature of the dataset, the model is capable of recognizing a wide range of animal species. It can be downloaded from [here](https://www.kaggle.com/datasets/iamsouravbanerjee/animal-image-dataset-90-different-animals)
 
 ## Model
 
