@@ -3,5 +3,6 @@ numpy
 pandas
 tensorflow==2.9.0
 scikit-learn==1.2.2
+protobuf==3.20.*
 streamlit
 -e .
