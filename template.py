@@ -6,24 +6,17 @@ logging.basicConfig(level=logging.INFO, format='[%(asctime)s]: %(message)s:')
 
 project_name = "animalClassification"
 list_of_files = [
-    ".github/workflows/.gitkeep",
-    f"src/{project_name}/__init__.py",
-    f"src/{project_name}/components/__init__.py",
-    f"src/{project_name}/components/common.py",
-    f"src/{project_name}/logging/__init__.py",
-    f"src/{project_name}/pipeline/__init__.py",
-    f"src/{project_name}/pipeline/train.py",
-    f"src/{project_name}/prediction/__init__.py",
-    f"src/{project_name}/prediction/predict.py",
-    f"src/{project_name}/config/__init__.py",
-    f"src/{project_name}/config/configuration.py",
-    "config/config.yaml",
-    "params.yaml",
-    "app.py",
-    "main.py",
-    "Dockerfile",
+    "models/animal_classification.h5",
+    "research/model_predictions.ipynb",
+    "research/model_training.ipynb",
+    "images/deer.png",
+    "src/__init__.py",
+    "src/utils.py",
     "requirements.txt",
-    "setup.py"
+    "README.md",
+    "Dockerfile",
+    "setup.py",
+    "app.py"
 ]
 
 for filepath in list_of_files:
