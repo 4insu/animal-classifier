@@ -128,3 +128,10 @@ def predict_image_class(model, base_path, img_folder, img_filename, animal_class
     predictions = np.argmax(model.predict(img), axis=1)
     predicted_class = animal_classes[predictions[0]]
     return predicted_class
+
+def predict_image_class_from_bytes(model, image):
+    img = cv2.imdecode(np.asarray(bytearray(image.read()), dtype=np.uint8), cv2.IMREAD_COLOR)
+    img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
+    img = np.expand_dims(cv2.resize(img, (224, 224)), axis = 0)
+    predictions = np.argmax(model.predict(img), axis = 1)
+    return animal_classes[predictions[0]]
