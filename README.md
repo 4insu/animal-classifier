@@ -33,11 +33,16 @@ To utilize the animal classifier, follow these steps:
 
 3. **Install Dependencies**: Ensure you have all the necessary dependencies installed. You may use requirements.txt to install them using pip.
 
-    ```bash
-    pip install -r requirements.txt
-    ```
-4. **Run the Classifier**: Use the provided scripts or notebooks to run the classifier on your own images or test it on the provided dataset.
+   ```bash
+   pip install -r requirements.txt
+   ```
 
+4. **Run the Classifier**: Use the provided scripts or notebooks to run the classifier on your own images or test it on your own dataset.
+
+   ```bash
+   streamlit run app.py
+   ```
+   
 ## Results
 
 The model achieves impressive accuracy on the task of animal classification, with performance metrics detailed in the accompanying documentation. Evaluation metrics such as precision, recall, and F1-score provide insights into the model's performance across different animal classes.
