@@ -1,4 +1,4 @@
-opencv-python-contrib-headless
+opencv-python-headless<4.3
 numpy
 pandas
 tensorflow==2.9.0
