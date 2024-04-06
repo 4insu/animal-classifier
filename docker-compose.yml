@@ -1,0 +1,11 @@
+version: "3.8"
+
+services:
+  animalClassification:
+    container_name: animalClassification
+    image: 4insu/animalClassification
+    ports:
+      - "5000:5000"
+    build:
+      context: .
+      dockerfile: Dockerfile
