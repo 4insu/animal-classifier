@@ -4,7 +4,7 @@ Welcome to the Animal Classifier repository! This project is aimed at classifyin
 
 ## Overview
 
-This project utilizes transfer learning, leveraging the pre-trained EfficientNetB3 model to classify various animal species accurately. The EfficientNetB3 model is known for its efficiency and effectiveness in handling image classification tasks.
+This project utilizes transfer learning by fine-tuning the pre-trained EfficientNetB3 model to accurately classify various animal species. The EfficientNetB3 model, known for its efficiency and effectiveness in handling image classification tasks, serves as a robust backbone for this purpose.
 
 ## Dataset
 
@@ -49,7 +49,7 @@ To utilize the animal classifier, follow these steps:
 
 ## Results
 
-The model achieves impressive accuracy on the task of animal classification, with performance metrics detailed in the accompanying documentation. Evaluation metrics such as precision, recall, and F1-score provide insights into the model's performance across different animal classes.
+The model achieves an impressive accuracy of 92% and f1-score of 90% on the test set, trained over 10 epochs. Augmentation techniques were employed to effectively reduce overfitting, enhancing the model's ability to generalize to unseen data. By training for more epochs, there's a possibility of achieving even better accuracy and f1-score.
 
 ## Web Application Screenshots
 
