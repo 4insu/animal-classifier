@@ -14,6 +14,10 @@ The dataset used for training and evaluation comprises images of over 90 differe
 
 EfficientNetB3, a convolutional neural network architecture, serves as the backbone for this animal classifier. Transfer learning is employed to fine-tune the model on the specific task of classifying animal species. By reusing the pre-trained weights and adjusting the final layers, the model achieves high accuracy even with a relatively small dataset.
 
+<div align = "center">
+    <img src = "images/imgreadme/model.png" alt = "DEMO 1" />
+</div>
+
 ## Usage
 
 To utilize the animal classifier, follow these steps:
@@ -49,9 +53,9 @@ The model achieves impressive accuracy on the task of animal classification, wit
 
 ## Web Application Screenshots
 
-<p float="left">
-  <img src="images/imgreadme/panda.png" alt="DEMO 1" width="400" />
-  <img src="images/imgreadme/elephant.png" alt="DEMO 2" width="400" /> 
+<p float = "left">
+  <img src = "images/imgreadme/panda.png" alt = "DEMO 1" width = "400" />
+  <img src = "images/imgreadme/elephant.png" alt = "DEMO 2" width = "400" /> 
 </p>
 
 ## Contributing
