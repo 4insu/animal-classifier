@@ -27,11 +27,19 @@
 
 import os
 import os
+import logging
 import numpy as np
+import tensorflow as tf
 from flask import Flask, render_template, request, jsonify
 from src.utils import load_trained_model, predict_image_class_from_bytes
 
-app = Flask(__name__)
+# Suppress TensorFlow warnings
+os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
+
+# Set logging level to ERROR
+tf.get_logger().setLevel(logging.ERROR)
+
+app = Flask(__name__, static_url_path = '/static')
 
 # Paths and model loading
 base_path = os.getcwd()

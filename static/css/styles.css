@@ -1,0 +1,81 @@
+/* Reset default margin and padding */
+body, h1, #upload-form, #result {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set body font and background color */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    color: #333; /* Set default text color */
+}
+
+/* Style the header */
+h1 {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 36px;
+    color: #333; /* Dark text color */
+}
+
+/* Style the upload form */
+#upload-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+/* Style the file upload container */
+#file-upload-container {
+    position: relative;
+}
+
+/* Style the file input */
+#file {
+    display: none;
+}
+
+#file-label {
+    padding: 8px 12px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+/* Style the clear button */
+#clear-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 4px;
+    background-color: #ccc;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+/* Style the submit button */
+input[type="submit"] {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
+/* Style the result container */
+#result {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+}
