@@ -10,7 +10,11 @@ base_path = os.getcwd()
 model_folder = 'models'
 model_filename = 'animal_classification.h5'
 
-model = load_trained_model(base_path, model_folder, model_filename)
+@st.cache_resource
+def load_model():
+    return load_trained_model(base_path, model_folder, model_filename)
+
+model = load_model()
 
 # Streamlit app
 st.title('Animal Classifier')
