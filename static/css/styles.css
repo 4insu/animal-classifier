@@ -30,6 +30,8 @@ h1 {
 /* Style the file upload container */
 #file-upload-container {
     position: relative;
+    margin-top: 30px;
+    margin-bottom: 20px;
 }
 
 /* Style the file input */
@@ -38,11 +40,12 @@ h1 {
 }
 
 #file-label {
-    padding: 8px 12px;
+    padding: 20px 40px; /* Adjust padding to make it larger */
     border: 2px solid #ccc;
-    border-radius: 5px;
+    border-radius: 10px; /* Adjust border radius for rounded corners */
     background-color: #fff;
     cursor: pointer;
+    font-size: 16px; /* Adjust font size */
 }
 
 /* Style the clear button */
@@ -59,7 +62,7 @@ h1 {
 
 /* Style the submit button */
 input[type="submit"] {
-    margin-top: 10px;
+    margin-top: 20px;
     padding: 10px 20px;
     background-color: #007bff;
     color: #fff;
