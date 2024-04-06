@@ -42,10 +42,18 @@ To utilize the animal classifier, follow these steps:
    ```bash
    streamlit run app.py
    ```
-   
+
 ## Results
 
 The model achieves impressive accuracy on the task of animal classification, with performance metrics detailed in the accompanying documentation. Evaluation metrics such as precision, recall, and F1-score provide insights into the model's performance across different animal classes.
+
+## Web Application Screenshots
+
+![DEMO 1](images/imgreadme/blank.png)
+
+![DEMO 2](images/imgreadme/panda.png)
+
+![DEMO 3](images/imgreadme/elephant.png)
 
 ## Contributing
 
