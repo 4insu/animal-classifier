@@ -49,9 +49,10 @@ The model achieves impressive accuracy on the task of animal classification, wit
 
 ## Web Application Screenshots
 
-![DEMO 2](images/imgreadme/panda.png)
-
-![DEMO 3](images/imgreadme/elephant.png)
+<p float="left">
+  <img src="images/imgreadme/panda.png" alt="DEMO 1" width="400" />
+  <img src="images/imgreadme/elephant.png" alt="DEMO 2" width="400" /> 
+</p>
 
 ## Contributing
 
